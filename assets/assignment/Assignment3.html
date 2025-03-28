@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case 4</title>
+    <link rel="stylesheet" href="../assets/lib/normalize.css">
+
+    <style>
+
+    div{
+      width: 100px;
+      aspect-ratio: 1/1;
+      border: 3px solid darkmagenta;
+      background: white;
+      border-radius: 50%;
+      position: absolute;
+      right: 0;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+
+      animation-name: my_ani;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes my_ani {
+      from{
+        width: 100px;
+      }
+      to{
+        width: 300px;
+        aspect-ratio: 1/1;
+        opacity: 0;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>
